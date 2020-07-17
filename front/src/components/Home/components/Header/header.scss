@@ -26,7 +26,8 @@ header {
         left: calc(50% - 1939px/2 - 150px);
         top: -3px;
         border-radius: 3px;
-        opacity: 0.8;
+        opacity: 0.5;   
+        filter: contrast(1.3);
     }
 }
 
