@@ -1,0 +1,32 @@
+header {
+    position: relative;
+    width: 100%;
+    min-height: 620px;
+    background: linear-gradient(90deg, #231F10 0%, rgba(35, 31, 16, 0) 36.98%, rgba(35, 31, 16, 0) 57.81%, #231F10 100%);
+    mix-blend-mode: multiply;
+    overflow: hidden;
+
+    & img {
+        position: absolute;
+        width: 1939px;
+        height: 1298px;
+        left: calc(50% - 1939px/2 - 150px);
+        top: -3px;
+        border-radius: 3px;
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    header {
+
+        & img {
+            width: 1233px;
+            height: 874px;
+            left: calc(50% - 1299px/2 - 305.5px);
+            top: 0px;
+        }
+    }
+}
+
+
