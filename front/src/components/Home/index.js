@@ -4,6 +4,7 @@ import './home.scss';
 // Import Components
 import Header from './components/Header';
 import Video from './components/Video';
+import Application from './components/Application';
 
 //
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
         <div id="home">
             <Header />
             <Video />
+            <Application />
         </div>
     )
 };
