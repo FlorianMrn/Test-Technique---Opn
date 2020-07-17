@@ -6,14 +6,27 @@ header {
     mix-blend-mode: multiply;
     overflow: hidden;
 
+    & .img-container {
+        position: relative;
+        height: 620px;
+        left: 100%;
+        right: -100%;
+        top: 620px;
+        background: linear-gradient(90deg, #231F10 0%, rgba(35, 31, 16, 0) 36.98%, rgba(35, 31, 16, 0) 57.81%, #231F10 100%);
+        mix-blend-mode: multiply;
+        transform: rotate(-180deg);
+        opacity: 0.2;
+    }
+
     & img {
+        mix-blend-mode: normal;
         position: absolute;
         width: 1939px;
         height: 1298px;
         left: calc(50% - 1939px/2 - 150px);
         top: -3px;
         border-radius: 3px;
-        opacity: 1;
+        opacity: 0.8;
     }
 }
 
