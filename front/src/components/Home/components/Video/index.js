@@ -9,6 +9,7 @@ import { ReactComponent as Refill } from '../../../../assets/logos/refill.svg';
 import { ReactComponent as Union } from '../../../../assets/logos/union.svg';
 import { ReactComponent as Stand } from '../../../../assets/logos/stand.svg';
 import { ReactComponent as Play } from '../../../../assets/logos/play.svg';
+import { ReactComponent as Line } from '../../../../assets/logos/line.svg';
 
 // Img
 import VideoImg from '../../../../assets/images/video.png';
@@ -16,6 +17,7 @@ import VideoImg from '../../../../assets/images/video.png';
 const Video = () => {
     return (
         <main>
+            <Line className="lineSvgTop"/>
             <div className="header">
                 <h1>Redécouvrez le plaisir d’une soirée cocktails à la maison</h1>
             </div>
@@ -53,6 +55,7 @@ const Video = () => {
                     </div>
                 </div>
             </div>
+            <Line className="lineSvgBottom"/>
         </main>
     );
 };

@@ -12,6 +12,22 @@ main {
     position: relative;
     margin: -64px auto 0;
 
+    svg.lineSvgTop {
+        position: absolute;
+        left: 50%;
+        top: -10px;
+        width: 24px;
+        height: 24px;
+    }
+
+    svg.lineSvgBottom {
+        position: absolute;
+        left: 50%;
+        bottom: -10px;
+        width: 24px;
+        height: 24px;
+    }
+
     & .header {
         width: 100%;
         height: 86px;
