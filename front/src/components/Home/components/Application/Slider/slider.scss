@@ -39,7 +39,7 @@
         max-width: 914px;
         min-height: 350px;
         background-color: #fff;
-        margin: 50px auto 0;
+        margin: 50px auto 45px;
 
         & img#absImg {
             position: absolute;
@@ -79,7 +79,7 @@
             right: 0;
             top: 269.24px;
 
-            & :nth-child(1) {
+            & a:first-of-type {
                 margin-right: 10.58px;
             }
         }

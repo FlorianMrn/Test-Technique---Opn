@@ -44,7 +44,7 @@ const Slider = () => {
                 <p id="absText">{appDatas[index].text}</p>
                 <div id="absSubImg">
                     {appDatas[index].subImg.map((img) => (
-                        <img src={img} alt="subImg"/>
+                        <a href="/*"><img src={img} alt="subImg"/></a>
                     ))}
                 </div>
                 <img className="slider-btn left" src={btnLeft} alt="btn left" onClick={() => handleClickLeft()}/>
