@@ -7,6 +7,7 @@ import Video from './components/Video';
 import Application from './components/Application';
 import Articles from './components/Articles';
 import Cocktails from './components/Cocktails';
+import Socials from './components/Socials';
 
 //
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
             <Application />
             <Articles />
             <Cocktails />
+            <Socials />
         </div>
     )
 };

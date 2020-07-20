@@ -1,0 +1,105 @@
+@import "vars";
+
+.socials {
+    position: relative;
+    width: 100%;
+    max-height: 195px;
+    margin: auto;
+    background-color: #231F10;
+    display: flex;
+    justify-content: center;
+
+    &-left {
+        min-width: 47.5%;
+        padding: 34px 54px 49px 170px;
+        box-sizing: border-box;
+
+        &-content {
+            display: inline-grid;
+
+            & p:first-of-type {
+                font-family: $fontTitle;
+                font-size: 15px;
+                line-height: 22px;
+                color: #FFFFFF;
+            }
+
+            & p:last-of-type {
+                font-family: $fontTitle;
+                font-size: 12px;
+                line-height: 16px;
+                letter-spacing: 0.03em;
+                color: #F1F3F4;
+                margin: 4px 0 40px;
+            }
+
+            & input:first-of-type {
+                font-family: $fontTitle;
+                font-size: 15px;
+                line-height: 22px;
+                color: #8D8E93;
+                background: transparent;
+                border: none;
+                border-bottom: 1px solid #E2E2E5;
+                outline: none;
+                margin-right: 17px;
+                overflow: hidden;
+            }
+
+            & input:last-of-type {
+                background: #E4C291;
+                border-radius: 24px;
+                width: 140px;
+                height: 36px;
+                cursor: pointer;
+                outline: none;
+                border: none;
+                color: #fff;
+
+                &:hover {
+                    transform: translateY(-3px); 
+                }
+    
+                &:active {
+                    transform: translateY(-1px);
+                }
+            }
+        }
+
+    }
+
+    &-right {
+        box-sizing: border-box;
+        min-width: 52.5%;
+        border-left: 1px solid #6C6D72;
+        padding: 34px 172px 48px 61px;
+
+        & p:first-of-type {
+            font-family: $fontTitle;
+            font-size: 15px;
+            line-height: 22px;
+            color: #FFFFFF;
+        }
+
+        & p:last-of-type {
+            font-family: $fontTitle;
+            font-size: 12px;
+            line-height: 16px;
+            letter-spacing: 0.03em;
+            color: #F1F3F4;
+            margin: 4px 0 40px;
+        }
+
+        & #socialImg {
+            margin-right: 20px;
+        }
+
+        &-tpl {
+            display: inline-flex;
+
+            & > a:hover {
+                transform: translateY(-3px);
+            }
+        }
+    }
+}
