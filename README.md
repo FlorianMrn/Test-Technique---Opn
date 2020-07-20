@@ -4,7 +4,7 @@ Test-Technique---Opn
 Purpose
 --------------------
 
-Create a the home page for Opn
+Create the home page for Opn
 
 Tools used
 --------------------
