@@ -13,13 +13,15 @@ const Articles = () => {
             <h5>Les derniers articles</h5>
             <div className="articles-slider">
                 {articlesDatas.map((data) => (
+                    <a href="/*">
                     <div className="articles-slider-container">
-                        <img src={data.img} alt="article"/>
+                        <img src={data.img} alt="article" className="articles-slider-container-img"/>
                         <div className="articles-slider-container-article">
                             <p>{data.p}</p>
                             <h6>{data.h6}</h6>
                         </div>
                     </div>
+                    </a>
                 ))}
             </div>
             <div className="articles-btn"><p>Voir plus de publications</p></div>
