@@ -40,6 +40,10 @@ header {
             left: calc(50% - 1299px/2 - 305.5px);
             top: 0px;
         }
+
+        & li {
+            display: none;
+        }
     }
 }
 

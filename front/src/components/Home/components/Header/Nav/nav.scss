@@ -104,3 +104,22 @@ nav {
         }
     }
 }
+
+@media only screen and (max-device-width: 480px) {
+
+    nav {
+       
+        & .menu {
+    
+            & ul {
+    
+                & li {
+                    display: none;
+    
+                }
+            }
+    
+        }
+    }
+}
+

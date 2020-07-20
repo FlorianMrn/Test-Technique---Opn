@@ -139,3 +139,12 @@ aside {
         }
     }
 }
+
+@media only screen and (max-device-width: 480px) {
+
+    aside {
+        justify-content: center;
+        flex-direction: column;
+        left: 18px;
+    }
+}
