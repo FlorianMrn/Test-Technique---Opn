@@ -1,0 +1,30 @@
+@import "vars";
+
+.footer {
+    width: 100%;
+    min-height: 60px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6C6D72;
+
+    & > a {
+        font-family: Styrene B;
+        font-size: 11px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-decoration-line: underline;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    & :nth-child(1) {
+        margin-right: 40px;
+    }
+
+    & :nth-child(2) {
+        margin-right: 40px;
+    }
+}
