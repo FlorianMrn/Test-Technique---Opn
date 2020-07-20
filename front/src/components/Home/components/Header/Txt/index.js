@@ -9,7 +9,7 @@ const Txt = () => {
         <aside>
             <div className="left">
                 <h1>L'experience</h1>
-                <h1>coktail</h1>
+                <h1>cocktail</h1>
                 <h1>à la maison</h1>
             </div>
             <div className="right">
