@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Video from './components/Video';
 import Application from './components/Application';
 import Articles from './components/Articles';
+import Cocktails from './components/Cocktails';
 
 //
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
             <Video />
             <Application />
             <Articles />
+            <Cocktails />
         </div>
     )
 };

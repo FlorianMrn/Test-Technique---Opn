@@ -42,21 +42,15 @@
         align-items: center;
         margin: 16px auto 74.17px;
 
-        & img:nth-child(2) {
-            margin-right: 22px;
-        }
-
         & img:first-of-type {
             margin-right: 19px;
         }
 
-        & img:last-of-type {
-            margin-left: 19px;
-        }
 
         & a {
             color: unset;
             transition: .3s all;
+            width: fit-content;
 
             &:hover .articles-slider-container-article {
                 transform: translateY(-3px);
@@ -70,11 +64,6 @@
                 box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
                 transition: .3s all;
             }
-
-            &:active {
-                transform: translateY(-1px);
-                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-            }
         }
 
         &-container {
@@ -85,7 +74,7 @@
                 height: calc(95px - 30px);
                 position: absolute;
                 bottom: -50px;
-                left: 14%;
+                left: 7.5%;
                 right: 0;
                 background-color: #fff;
                 padding: 15px 20px;
