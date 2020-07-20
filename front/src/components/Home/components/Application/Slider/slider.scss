@@ -1,6 +1,120 @@
+@import "vars";
+
 .slider {
-    display: inline-flex;
+    position: relative;
     width: 100%;
     height: calc(600px - 126px);
-    background-color: yellow;
+
+    &-titles {
+        max-width: 914px;
+        height: auto;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+
+        & h1 {
+            font-family: $fontTitle;
+            font-size: 15px;
+            line-height: 22px;
+            color: #6C6D72;
+            position: relative;
+            height: 100%;
+            padding-bottom: 12px;
+            border-bottom: solid transparent;
+
+            &#active {
+                outline: 0;
+                border-bottom: 3px solid #E4C291;
+                transition: .5s all;
+            }
+        }
+    }
+
+    & svg.slider-line {
+        position: absolute;
+    }
+
+    &-slide {
+        position: relative;
+        max-width: 914px;
+        min-height: 350px;
+        background-color: #fff;
+        margin: 50px auto 0;
+
+        & img#absImg {
+            position: absolute;
+            left: 52.58px;
+            top: -33px;
+            bottom: 0;
+        }
+
+        & h1#absTitle {
+            position: absolute;
+            left: 376.58px;
+            right: 0;
+            top: 34px;
+            font-family: $fontTitle;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            color: #231F10;
+        }
+
+        & p#absText {
+            position: absolute;
+            left: 376.58px;
+            right: 0;
+            top: 92px;
+            font-family: $fontText;
+            font-size: 15px;
+            line-height: 22px;
+            color: #6C6D72;
+            max-width: 495px;
+        }
+
+        & div#absSubImg {
+            position: absolute;
+            left: 376.58px;
+            right: 0;
+            top: 269.24px;
+
+            & :nth-child(1) {
+                margin-right: 10.58px;
+            }
+        }
+
+        & img.slider-btn {
+            position: absolute;
+            cursor: pointer;
+
+            &:hover {
+                transform: translateY(-3px); 
+            }
+
+            &:active {
+                transform: translateY(-1px);
+            }
+
+            &.left {
+                top: 48%;
+                left: -24px;
+            }
+
+            &.right {
+                top: 50%;
+                right: -18px;
+            }
+        }
+    }
+
+    svg.lineSvgBottom {
+        position: absolute;
+        left: 50%;
+        bottom: -12px;
+        width: 24px;
+        height: 24px;
+        z-index: 2;
+    }
+
 }
